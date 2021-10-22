@@ -14,5 +14,5 @@ const Template: Story<ConfirmProps> = (args) => <Confirm {...args} />;
 
 export const Default = Template.bind({})
 Default.args = {
-  title: 'Você tem certeza?',
+  title: 'Você tem certeza?'
 }
