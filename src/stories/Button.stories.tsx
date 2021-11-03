@@ -35,3 +35,9 @@ Disabled.args = {
   disabled: true,
   label: 'resetar senha',
 };
+
+export const ImageUpload = Template.bind({});
+ImageUpload.args = {
+  variant: 'imageUpload',
+  label: 'resetar senha',
+};

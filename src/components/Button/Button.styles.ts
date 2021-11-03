@@ -40,11 +40,22 @@ const THEME = {
       color: COLORS.foreground,
       bg: transparentize(0.44, '#508AC9')
     }
+  },
+  imageUpload: {
+    bg: '#FFFFFF',
+    color: '#274060',
+    onHover: `
+      border-color: #FFFFFF;
+    `,
+    disabled: {
+      color: COLORS.foreground,
+      bg: '#FFFFFF'
+    }
   }
 }
 
 export const Wrapper = styled.button<{
-  variant: 'danger' | 'primary' | 'text'
+  variant: 'danger' | 'primary' | 'text' | 'imageUpload'
 }>`
   padding: 6px 8px 4px;
   border: 1px solid ${p => THEME[p.variant].bg};
